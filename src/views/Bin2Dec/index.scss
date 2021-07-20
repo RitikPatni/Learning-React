@@ -1,0 +1,40 @@
+.bin2dec {
+  display: grid;
+  gap: 2rem;
+  &__title {
+    font-size: var(--xxl);
+    font-weight: var(--semibold);
+  }
+  &__form {
+    display: grid;
+    gap: 1rem;
+    width: clamp(20rem, calc(100vw - 2rem), 40rem);
+    &__input {
+      display: grid;
+      gap: 0.5rem;
+      &__label {
+        color: var(--gray-darker);
+      }
+      &__field {
+        padding: 1rem 2rem;
+        font-size: var(--base);
+        &::placeholder {
+          color: var(--gray-darker);
+        }
+      }
+    }
+    &__output {
+      font-size: var(--lg);
+      font-weight: var(--semibold);
+    }
+    &__submit-button {
+      background: var(--primary-color);
+      padding: 1rem 2rem;
+      font-size: var(--base);
+      color: var(--white);
+      border: none;
+      border-radius: var(--rounded-md);
+      font-weight: var(--semibold);
+    }
+  }
+}

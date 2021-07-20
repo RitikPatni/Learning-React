@@ -1,0 +1,37 @@
+:root {
+  --primary-color: hsl(237, 97%, 27%);
+  --secondary-color: hsl(231, 49%, 39%);
+  --tertiary-color: hsl(219, 26%, 52%);
+  --text-primary-color: hsl(237, 97%, 10%);
+  --text-secondary-color: hsl(176, 16%, 64%);
+  --text-tertiary-color: hsl(109, 53%, 83%);
+  --white: hsl(255, 100%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --gray-darker: hsl(0, 0%, 30%);
+  --gray-dark: hsl(0, 0%, 40%);
+  --gray: hsl(0, 0%, 50%);
+  --gray-light: hsl(0, 0%, 60%);
+  --gray-lighter: hsl(0, 0%, 70%);
+  --gray-lightest: hsl(0, 0%, 80%);
+  --sm: 0.75rem;
+  --md: 0.875rem;
+  --base: 1rem;
+  --lg: 1.125rem;
+  --xl: 1.5rem;
+  --xxl: 1.75rem;
+  --xxxl: 2.5rem;
+  --xxxxl: 3.25rem;
+  --rounded-xs: 0.125rem;
+  --rounded-sm: 0.25rem;
+  --rounded-md: 0.375rem;
+  --rounded-lg: 0.5rem;
+  --rounded-xl: 0.75rem;
+  --rounded-xxl: 1rem;
+  --rounded-xxxl: 1.5rem;
+  --rounded-xxxxl: 2.25rem;
+  --light: 300;
+  --base: 400;
+  --semibold: 600;
+  --bold: 700;
+  --extrabold: 900;
+}

@@ -1,0 +1,8 @@
+.border-radius-previewer {
+  display: grid;
+  gap: 2rem;
+  &__title {
+    font-size: var(--xxl);
+    font-weight: var(--semibold);
+  }
+}

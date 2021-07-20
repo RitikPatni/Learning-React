@@ -1,0 +1,21 @@
+.app {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-primary-color);
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: clamp(1rem, 2rem, 3rem) 1rem;
+  display: grid;
+  &__heading {
+    font-size: var(--xxl);
+    font-weight: var(--bold);
+  }
+  &__nav {
+    &__links {
+      display: grid;
+      gap: 0.75rem;
+    }
+  }
+}

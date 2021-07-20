@@ -127,3 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+a,
+button {
+  cursor: pointer;
+}
+@import url(./_variables.scss);
+@import url(./_fonts.scss);
